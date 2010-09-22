@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+   <title>Rotate($('img'),[deg||rad])</title>
+   <style type="text/css">
+   #rotate_me1 {float: left;}  
+   #rotate_me2 {float: right;}
+   pre {color: #393;font-size: 18px}
+   </style>
+</head>
+<body>
+<h1>Rotate(HTMLImageElement img, String angle)</h1>
+<pre>
+Rotate($('rotate_me1'), '45deg'); 
+Rotate($('rotate_me2'), 270*Math.PI/180);
+</pre>
+
+<img src="logo.png" alt="logo" id="rotate_me1"/>
+<img src="logo.png" alt="logo" id="rotate_me2"/>
+<script type="text/javascript" src="rotate.js"></script>
+<script type="text/javascript">
+Rotate(document.getElementById('rotate_me1'),'45deg');
+Rotate(document.getElementById('rotate_me2'),270*Math.PI/180);
+</script>
+</body>
+</html>
+
