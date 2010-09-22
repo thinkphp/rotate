@@ -7,7 +7,15 @@ Rotate
 Syntax
 ======
 
-      Rotate(HTMLImageElement image, String angle)
+      1.Rotate(HTMLImageElement image, String angle)
+      @param image (HTMLImageElement) an image element.
+      @param angle (String) angle either radians or degrees ('45deg' or '40rad') 
+     
+
+      2.Rotate(HTMLImageElement image, Number angle)
+      @param image (HTMLImageElement) an image element.
+      @param angle (Number) angle in radians. 
+      
 
 
 Usage
